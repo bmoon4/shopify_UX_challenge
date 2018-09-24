@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: sans-serif;  
+}
+
+.container{
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 960px;
+}
+
+.mainContainer{
+    color: #6624d2;
+    background-color:#f4ecff;
+    min-width: 50%;
+    min-height: 960px;
+}
+
+.AcmeStack, .congrats{
+    padding-top:10%;
+    color:white;
+    font-size: 25px;
+    background-color:#6624d2;
+    min-width: 50%;
+    min-height: 960px;
+  
+}
+
+.congrats{
+    padding-top:15%;
+    color:white;
+    font-size: 25px;
+    background-color:#6624d2;
+    min-width: 50%;
+    min-height: 960px;
+}
+
+
+ ul{
+    list-style-type: none;
+}
+
+.loginPanel{
+    margin-top:25%;
+}
+
+.loginPanel input{
+    font-size: 15px;
+    color:#6624d2;
+    width:250px;
+    height: 30px;
+    border: 0;
+ 
+}
+
+.loginPanel button, .signoutButton{
+    width:250px;
+    height: 34px;
+    font-size: 15px;
+    background-color: #6624d2; 
+    color:white;
+    border: 0;  
+}
+
+.signoutButton{
+    margin-top: 100px;
+    width:170px;
+    height: 34px;
+    font-size: 15px;
+    background-color: white; 
+    color: #6624d2;
+    border: 0;  
+}
+
+.loginWith{
+    padding-top:25%;
+}
+
+.loginWith p {
+    font-style: italic;
+}
+
+#loggedIn{
+    font-size: 17px;
+}
+#alert{
+    color:#ff0051;
+}
+#customPadding::before{
+    min-height: 200px;
+   
+}
+

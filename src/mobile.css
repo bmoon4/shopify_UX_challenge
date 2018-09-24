@@ -1,0 +1,93 @@
+/*iPhone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+    
+    .container{
+        background-color:#6624d2;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column-reverse;
+        min-height: 568px;
+    }
+
+    .AcmeStack{
+        min-height: 220px;
+        margin:0;
+    }
+
+    .loginPanel{
+        position: absolute;
+        top:160px;
+        right:10%;
+    }
+
+    .mainContainer{
+        padding-top:0;
+        padding-bottom: 0px;
+        min-height: 348px;
+    }
+
+    .congrats{
+        font-size: 80%;
+        padding-top:0%;
+        min-width: 100%;
+        min-height: 348px;
+    }
+    .signoutButton{
+        margin-top:20px;
+        font-size: 15px;
+        background-color: white; 
+        color: #6624d2;
+        border: 0;  
+    }
+    .loginPanel{
+        margin-top:0%;
+    }
+ 
+}
+
+/*iPhone X*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
+    .container{
+        background-color:#6624d2;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column-reverse;
+        min-height: 568px;
+    }
+
+    .AcmeStack{
+        min-height: 220px;
+        margin:0;
+    }
+
+    .loginPanel{
+        position: absolute;
+        top:160px;
+        right:10%;
+        left: 10%;
+    }
+
+    .mainContainer{
+        padding-top:0;
+        padding-bottom: 0px;
+        min-height: 592px;
+    }
+
+    .congrats{
+        font-size: 80%;
+        padding-top:0%;
+        min-width: 100%;
+        min-height: 592px;
+    }
+    .signoutButton{
+        margin-top:20px;
+        font-size: 15px;
+        background-color: white; 
+        color: #6624d2;
+        border: 0;  
+    }
+    .loginPanel{
+        margin-top:0%;
+    }
+  
+}
