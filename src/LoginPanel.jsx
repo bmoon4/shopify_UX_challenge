@@ -79,7 +79,9 @@ class LoginPanel extends Component {
                         </div>
                         <br /><br />
                         {this.state.pwToken === 1 &&
-                            <p id="alert"> password must be between 8 and 24 characters</p>
+                            <React.Fragment>
+                                <p id="alert"> password must be between <br /> 8 and 24 characters</p>
+                            </React.Fragment>
                         }
                         <br /><br /><br /><br />
                         <input type="checkbox" /> remember me

@@ -5,7 +5,7 @@ class AcmeStack extends Component {
     render() {
         return (
             <div className="AcmeStack">
-                <h1>AcmeStack</h1>
+                <h2>AcmeStack</h2>
                 <img src={logoacmestack} className="App-logo" alt="logo" height="50px" />
             </div>
         );
